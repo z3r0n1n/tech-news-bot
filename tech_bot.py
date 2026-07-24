@@ -13,11 +13,10 @@ CHAT_ID = os.environ.get("CHAT_ID")
 TOPIC_ID = int(os.environ.get("TOPIC_ID"))
 
 FEED_URLS = [
-    "https://www.theverge.com/rss/index.xml",
-    "https://techcrunch.com/feed/",
-    "https://feeds.arstechnica.com/arstechnica/index",
+    "https://www.theverge.com/rss/tech/index.xml",
+    "https://feeds.arstechnica.com/arstechnica/gadgets",
     "https://www.engadget.com/rss.xml",
-    "https://www.wired.com/feed/rss",
+    "https://www.wired.com/feed/category/gear/latest/rss",
 ]
 
 CHECK_INTERVAL = 1800  # 30 minuti
