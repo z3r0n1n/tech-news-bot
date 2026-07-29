@@ -14,9 +14,7 @@ TOPIC_ID = int(os.environ.get("TOPIC_ID"))
 
 FEED_URLS = [
     "https://www.theverge.com/rss/tech/index.xml",
-    "https://feeds.arstechnica.com/arstechnica/gadgets",
-    "https://www.engadget.com/rss.xml",
-    "https://www.wired.com/feed/category/gear/latest/rss",
+    "https://feeds.arstechnica.com/arstechnica/gadgets"
 ]
 
 CHECK_INTERVAL = 1800  # 30 minuti
